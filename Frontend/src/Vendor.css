@@ -1,0 +1,69 @@
+.vendor-container {
+  background-color: #f0f4f8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.vendor-title {
+  margin-top: 0px;
+  color: rgb(100, 97, 97);
+  background-color: rgb(227, 227, 188);
+  padding-bottom: 12px;
+  padding-top: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.vendor-card {
+  max-width: 345px; /* Adjusted max-width for consistent card size */
+  margin: auto;
+  height: 100%; /* Ensures cards are the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vendor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.vendor-card-image {
+  width: 100%; /* Ensure images fill their container */
+  height: 200px; /* Fixed height for consistent image size */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover entire space */
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.vendor-card-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.vendor-card-title {
+  font-weight: bold;
+  font-family: "Tahoma";
+  background-color: rgb(163, 235, 39);
+  width: fit-content;
+  border-radius: 4px;
+  padding: 7px 12px 10px 10px
+}
+.availability-info{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.purchase-button{
+  color: rgb(247, 241, 241);
+  margin-left: 120px;
+  background-color: rgb(53, 156, 221);
+  padding: 5px 10px 10px 10px;
+  border-radius: 4px;
+}

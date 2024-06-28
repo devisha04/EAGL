@@ -1,0 +1,19 @@
+/* src/pages/Volunteer.css */
+.volunteer-list {
+    width: 100%;
+    max-width: 360px;
+    background-color: #f0f0f0; /* Replace with your desired background color */
+  }
+  
+  .volunteer-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: aqua;
+    border-bottom: 1px solid #ccc; /* Optional: Add a border between list items */
+  }
+  
+  .volunteer-item:last-child {
+    border-bottom: none; /* Remove border from the last list item */
+  }
+  
